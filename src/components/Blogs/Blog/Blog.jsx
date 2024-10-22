@@ -2,8 +2,7 @@
 
 import { BsBookmark } from "react-icons/bs";
 
-export default function Blog({blog}){
-    console.log(blog)
+export default function Blog({blog, handleBookMark, handleMarkAsRead}){ 
     const{author_img, author_name, cover_img, hashtags, post_date, reading_time, title} = blog;
     return(
         <div className="border-b">
@@ -18,7 +17,7 @@ export default function Blog({blog}){
                 </div>
                 <div className="flex items-center gap-2 text-secondary/60">
                     <p className="text-xl font-medium">{reading_time} min read</p>
-                    <button className="font-bold text-2xl "><BsBookmark /></button>
+                    <button onClick={() => handleBookMark(blog)} className="font-bold text-2xl "><BsBookmark /></button>
                 </div>
             </div>
             <h2 className="text-secondary text-[40px] font-bold leading-[160%]">{title}</h2>
@@ -29,8 +28,7 @@ export default function Blog({blog}){
                 }
             </p>
 
-            <a href="" className="underline text-xl font-semibold text-primary">Mark as read</a>
-
+            <p onClick={() => handleMarkAsRead(reading_time)}   className="underline text-xl cursor-pointer font-semibold text-primary">Mark as read</p> 
             <div className="p-[1px] my-10 bg-secondary/10"></div>
         </div>
     )
