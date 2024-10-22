@@ -1,0 +1,39 @@
+[
+    {
+      "cover_img": "https://i.ibb.co.com/DVCzv9j/1.jpg",
+      "author_img": "https://i.ibb.co.com/2ynnNwH/boy1.png",
+      "author_name": "John Doe",
+      "post_date": "2024-10-20",
+      "reading_time": 5,
+      "title": "The Future of Interior Design: Trends for 2025",
+      "hashtags": ["#InteriorDesign", "#Trends2025", "#HomeDecor"]
+    },
+    {
+      "cover_img": "https://i.ibb.co.com/h2twZK7/2.png",
+      "author_img": "https://i.ibb.co.com/dQKwXNB/boy2.jpg",
+      "author_name": "Jane Smith",
+      "post_date": "2024-10-18",
+      "reading_time": 8,
+      "title": "How to Maximize Small Spaces in Apartments",
+      "hashtags": ["#SmallSpaces", "#ApartmentLiving", "#DesignTips"]
+    },
+    {
+      "cover_img": "https://i.ibb.co.com/d5M7R4Y/3.png",
+      "author_img": "https://i.ibb.co.com/JBhFY5t/girl1.jpg",
+      "author_name": "Emily Brown",
+      "post_date": "2024-10-15",
+      "reading_time": 6,
+      "title": "Sustainable Architecture: Building for the Future",
+      "hashtags": ["#Sustainability", "#Architecture", "#GreenBuilding"]
+    },
+    {
+      "cover_img": "https://i.ibb.co.com/4Trt37G/4.jpg",
+      "author_img": "https://i.ibb.co.com/f9J1S4b/girl2.jpg",
+      "author_name": "Michael Lee",
+      "post_date": "2024-10-10",
+      "reading_time": 7,
+      "title": "Top 10 Tips for Organizing Your Home Office",
+      "hashtags": ["#HomeOffice", "#Organization", "#Productivity"]
+    }
+  ]
+  
